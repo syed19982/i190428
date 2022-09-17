@@ -182,7 +182,7 @@
 
     <RelativeLayout
 
-        android:background="#2e2c2c"
+        android:background="#555252"
         android:layout_width="411dp"
         android:layout_height="94dp"
         app:layout_constraintBottom_toBottomOf="parent"
