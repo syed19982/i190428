@@ -49,8 +49,8 @@
 
     <ImageView
         android:id="@+id/accounticon"
-        android:layout_width="42dp"
-        android:layout_height="43dp"
+        android:layout_width="43dp"
+        android:layout_height="46dp"
         android:clickable="true"
         android:src="@drawable/account_icon"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,32 +61,58 @@
         app:layout_constraintVertical_bias="0.411" />
 
     <ImageView
-        android:id="@+id/comment"
-        android:layout_width="313dp"
-        android:layout_height="74dp"
+        android:id="@+id/postacomment"
+        android:layout_width="286dp"
+        android:layout_height="55dp"
         android:clickable="true"
-        android:src="@drawable/artistcomment"
+        android:src="@drawable/gradient"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.704"
+        app:layout_constraintHorizontal_bias="0.28"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.406" />
+        app:layout_constraintVertical_bias="0.8" />
 
+
+    <TextView
+        android:layout_width="259dp"
+        android:layout_height="42dp"
+        android:text="Post a comment"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
 
     <ImageView
-        android:id="@+id/postacomment"
-        android:layout_width="313dp"
-        android:layout_height="74dp"
+        android:id="@+id/yes"
+        android:layout_width="286dp"
+        android:layout_height="55dp"
         android:clickable="true"
-        android:src="@drawable/artistcomment"
+        android:src="@drawable/gradient"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintHorizontal_bias="0.672"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.811" />
+        app:layout_constraintVertical_bias="0.403" />
 
+
+    <TextView
+        android:layout_width="259dp"
+        android:layout_height="42dp"
+        android:text="What an amazing song"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
 
     <ImageView
         android:id="@+id/playsign"
