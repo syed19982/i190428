@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Page9">
+
+
+    <TextView
+        android:layout_width="224dp"
+        android:layout_height="45dp"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:clickable="true"
+        android:src="@drawable/BackIcon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+    <ImageView
+        android:id="@+id/edit"
+        android:layout_width="42dp"
+        android:layout_height="43dp"
+        android:clickable="true"
+        android:src="@drawable/edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+    <ImageView
+        android:id="@+id/bigcircle"
+        android:layout_width="284dp"
+        android:layout_height="242dp"
+        android:clickable="true"
+        android:src="@drawable/darkcircle"
+        app:layout_constraintBottom_toBottomOf="@+id/relativeLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:text="Song: 4"
+        android:textColor="#d4af37"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:text="Email"
+        android:textColor="#d4af37"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:text="Playlist: 4"
+        android:textColor="#d4af37"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:text="Username"
+        android:textColor="#d4af37"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447" />
+
+    <RelativeLayout
+
+        android:id="@+id/relativeLayout3"
+        android:layout_width="411dp"
+        android:layout_height="94dp"
+        android:background="#2e2c2c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/liked"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:src="@drawable/heart" />
+
+
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="74dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:src="@drawable/plus" />
+
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="74dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="7dp"
+            android:clickable="true"
+            android:src="@drawable/search" />
+
+
+        <ImageView
+            android:id="@+id/listen"
+            android:layout_width="74dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:src="@drawable/listen_later" />
+
+
+        <TextView
+            android:layout_width="49dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="50dp"
+            android:text="Liked"
+            android:textColor="#d4af37"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="51dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="133dp"
+            android:layout_marginTop="50dp"
+            android:text="Add"
+            android:textColor="#d4af37"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="50dp"
+            android:text="Search"
+            android:textColor="#d4af37"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="50dp"
+            android:text="Listen Later"
+            android:textColor="#d4af37"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
