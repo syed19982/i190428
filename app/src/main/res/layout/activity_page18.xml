@@ -40,12 +40,12 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="328dp"
-        android:layout_height="43dp"
-        android:text="Search"
+        android:layout_width="326dp"
+        android:layout_height="52dp"
         android:backgroundTint="@color/white"
-        android:textColor="#d4af37"
+        android:text="Search"
         android:textAlignment="viewStart"
+        android:textColor="#d4af37"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.807"

@@ -76,6 +76,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Show"
+
+        android:clickable="true"
         android:textAlignment="center"
         android:textColor="#d4af37"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -87,6 +89,8 @@
 
     <Button
         android:id="@+id/SignUp"
+
+        android:clickable="true"
         android:layout_width="153dp"
         android:layout_height="46dp"
         android:backgroundTint="@color/black"
@@ -103,7 +107,9 @@
         android:layout_width="305dp"
         android:layout_height="52dp"
         android:backgroundTint="#d4af37"
-        android:text="SignUp"
+        android:text="SignIn"
+
+        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.471"
@@ -118,6 +124,8 @@
         android:backgroundTint="@color/black"
         android:text="Forgot your password?"
         android:textColor="#d4af37"
+
+        android:clickable="true"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

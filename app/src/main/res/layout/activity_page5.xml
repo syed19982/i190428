@@ -49,6 +49,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.933" />
 
+
     <TextView
         android:layout_width="174dp"
         android:layout_height="59dp"
@@ -57,10 +58,10 @@
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.159" />
+        app:layout_constraintVertical_bias="0.111" />
 
 
     <ImageView
@@ -71,10 +72,10 @@
         android:src="@drawable/playlist"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328" />
+        app:layout_constraintVertical_bias="0.274" />
 
 
     <TextView
@@ -88,8 +89,7 @@
         app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.457" />
-
+        app:layout_constraintVertical_bias="0.422" />
 
     <ImageView
         android:id="@+id/artist2"
@@ -101,7 +101,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintVertical_bias="0.674" />
+
 
     <TextView
         android:layout_width="106dp"
@@ -114,7 +115,7 @@
         app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.823" />
+        app:layout_constraintVertical_bias="0.769" />
 
     <ImageView
         android:id="@+id/artist3"
@@ -127,7 +128,7 @@
         app:layout_constraintHorizontal_bias="0.944"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintVertical_bias="0.674" />
 
     <TextView
         android:layout_width="106dp"
@@ -140,8 +141,7 @@
         app:layout_constraintHorizontal_bias="0.898"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.457" />
-
+        app:layout_constraintVertical_bias="0.422" />
 
     <TextView
         android:layout_width="174dp"
@@ -154,7 +154,7 @@
         app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565" />
+        app:layout_constraintVertical_bias="0.519" />
 
     <ImageView
         android:id="@+id/artist1"
@@ -167,7 +167,8 @@
         app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintVertical_bias="0.674" />
+
 
     <TextView
         android:layout_width="106dp"
@@ -180,7 +181,7 @@
         app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.823" />
+        app:layout_constraintVertical_bias="0.769" />
 
     <ImageView
         android:id="@+id/playlist2"
@@ -192,8 +193,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328" />
-
+        app:layout_constraintVertical_bias="0.274" />
 
     <TextView
         android:layout_width="106dp"
@@ -206,7 +206,7 @@
         app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.457" />
+        app:layout_constraintVertical_bias="0.422" />
 
     <ImageView
         android:id="@+id/playlist3"
@@ -219,7 +219,8 @@
         app:layout_constraintHorizontal_bias="0.944"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.328" />
+        app:layout_constraintVertical_bias="0.274" />
+
 
     <TextView
         android:layout_width="106dp"
@@ -232,8 +233,7 @@
         app:layout_constraintHorizontal_bias="0.898"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.823" />
-
+        app:layout_constraintVertical_bias="0.769" />
 
     <TextView
         android:layout_width="106dp"
@@ -243,10 +243,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.864" />
+        app:layout_constraintVertical_bias="0.847" />
 
     <ImageView
         android:id="@+id/backarrow"
@@ -256,10 +256,10 @@
         android:src="@drawable/prev"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.649"
+        app:layout_constraintHorizontal_bias="0.646"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.849" />
+        app:layout_constraintVertical_bias="0.832" />
 
     <ImageView
         android:id="@+id/play"
@@ -272,7 +272,7 @@
         app:layout_constraintHorizontal_bias="0.813"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.849" />
+        app:layout_constraintVertical_bias="0.832" />
 
     <ImageView
         android:id="@+id/forwardarrow"
@@ -285,11 +285,11 @@
         app:layout_constraintHorizontal_bias="0.979"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.849" />
+        app:layout_constraintVertical_bias="0.832" />
 
     <RelativeLayout
 
-        android:background="#555252"
+        android:background="#2e2c2c"
         android:layout_width="411dp"
         android:layout_height="94dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -310,7 +310,7 @@
 
 
         <ImageView
-            android:id="@+id/add"
+            android:id="@+id/add1"
             android:layout_width="74dp"
             android:layout_height="26dp"
             android:clickable="true"
@@ -333,10 +333,11 @@
             android:id="@+id/listen"
             android:layout_width="74dp"
             android:layout_height="26dp"
-            android:clickable="true"
-            android:layout_marginTop="8dp"
             android:layout_marginLeft="320dp"
-            android:src="@drawable/listen_later" />
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:src="@drawable/listen_later"
+            tools:ignore="SpeakableTextPresentCheck" />
 
 
         <TextView

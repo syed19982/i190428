@@ -55,6 +55,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
+        android:elegantTextHeight="true"
         android:textColor="#d4af37"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,6 +69,7 @@
         android:layout_height="46dp"
         android:background="@color/white"
         android:ems="10"
+        android:elegantTextHeight="true"
         android:inputType="textPersonName"
         android:text="Email"
         android:textColor="#d4af37"
@@ -102,6 +104,8 @@
         android:text="Show"
         android:textAlignment="center"
         android:textColor="#d4af37"
+
+        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.833"
@@ -129,6 +133,8 @@
     <ImageView
         android:id="@+id/maleicon"
         android:layout_width="66dp"
+
+        android:clickable="true"
         android:layout_height="73dp"
         android:src="@drawable/male_icon"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -142,6 +148,8 @@
         android:id="@+id/femaleicon"
         android:layout_width="66dp"
         android:layout_height="73dp"
+
+        android:clickable="true"
         android:src="@drawable/female_icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -154,6 +162,7 @@
         android:id="@+id/notprefaredicon"
         android:layout_width="66dp"
         android:layout_height="73dp"
+        android:clickable="true"
         android:src="@drawable/prefer_not_to_say_gender"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -168,6 +177,7 @@
         android:layout_height="60dp"
         android:text="I would like to receive your newsletter and other
 promotional information."
+        android:clickable="true"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -183,7 +193,7 @@ promotional information."
         android:layout_height="46dp"
         android:backgroundTint="@color/black"
         android:text="Sign In"
-
+        android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
